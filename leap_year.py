@@ -5,7 +5,7 @@ def leap_year():
     elif year%4== 0 and year%100!=0:
       print(f"El año {year} es bisiesto")
     else:
-      print("El año ingresado no es bisiesto")
+      print(f"El año {year} no es bisiesto")
 
 
    
